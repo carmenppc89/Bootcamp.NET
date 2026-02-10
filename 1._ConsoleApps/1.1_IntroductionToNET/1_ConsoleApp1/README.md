@@ -11,6 +11,8 @@ On Execute, it will display a console with a menu. Every option is an exercise:
 
 ### 1. **Texto - *Text***</br>
 Read and write console inputs. Parse data to our desire and return it.
+<!---</br>![ups](1LgK1HTJ_78I58TwOuNWy7FyNJ_XpScNL)-->
+
 ### 2. **Division Entera - *Integer Division***</br>
 It will read console inputs and parse them to integers. Then, it will do the operation looping manually, parse again, and return the result.
 ### 3. **Media - *Avarage***</br>
