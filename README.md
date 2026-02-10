@@ -4,28 +4,28 @@ Projects done on C# and .NET Framework
 ## LICENSE
 This project is distributed under the **Custom Educational License v1.0**.
 See the [LICENSE](./LICENSE.txt) file for more information.
+</br></br>
 
 ## Table of Contents in **ConsoleApps**
 
 ### 1. [Console Apps](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps)
-#### 1.1 &nbsp;[Introduction to .NET framework]()
-##### 1.1.1 &nbsp;[ConsoleApp1]()
-##### 1.1.2 &nbsp;[Week day]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Dia de la Semana*
-##### 1.1.3 &nbsp;[Morse Translator]()&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Traductor de Morse*
-##### 1.1.4 &nbsp;[Tic Tac Toe]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Tres en raya*
-##### 1.1.5 &nbsp;[Snake V1]()
-    <!-- Cola infinita, se muere cuando choca. -->
-	
-	[comment]: <> (This is a comment, it will not be included)
+#### 1.1 &nbsp;[Introduction to .NET framework](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps/ConsoleApps/IntroductionToNET)
+##### 1.1.1 &nbsp;[ConsoleApp1](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps/ConsoleApps/IntroductionToNET/ConsoleApp1)
+##### 1.1.2 &nbsp;[Week day](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps/ConsoleApps/IntroductionToNET/CarmenPPerez_DiaDeLaSemana)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Dia de la Semana*
+##### 1.1.3 &nbsp;[Morse Translator](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps/ConsoleApps/IntroductionToNET/TraductorDeMorse)&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Traductor de Morse*
+##### 1.1.4 &nbsp;[Tic Tac Toe](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps/ConsoleApps/IntroductionToNET/CarmenPTresEnRaya)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Tres en raya*
+##### 1.1.5 &nbsp;[Snake V1](https://github.com/carmenppc89/Bootcamp.NET/tree/ConsoleApps/ConsoleApps/IntroductionToNET/CarmenPPerez_Snake)
 
-	[//]: <> (This is also a comment.)
+<!---
+Cola infinita, se muere cuando choca.
+-->
+</br>
 
-	[//]: # (This may be the most platform independent comment)
-  
 #### 1.2 &nbsp;[ClasClases]()
 ##### 1.2.1 &nbsp;[Cards and Decks]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Cartas y Barajas*
 ##### 1.2.2 &nbsp;[Cards Battle]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Batalla de cartas*
 ##### 1.2.3 &nbsp;[Football Club]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;*Club de Futbol*
+</br>
 
 #### 1.3 &nbsp;[Herencia]()
 ##### 1.3.1 &nbsp;[Hospital]()
