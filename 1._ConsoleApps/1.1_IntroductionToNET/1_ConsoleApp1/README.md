@@ -22,6 +22,7 @@ It asks how many numbers are going to be introduced. Then, the user will be aske
 ### 6. **Palindromo de texto - *Text Palindrome***</br>
     to-documentate
 ### 7. **Palindromo de numero - *Number Palindrome***</br>
+    to-documentate
 
 ## Screenshots
     to-documentate
