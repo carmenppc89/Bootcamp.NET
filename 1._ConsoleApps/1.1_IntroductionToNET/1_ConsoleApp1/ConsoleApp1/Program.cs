@@ -171,7 +171,7 @@ namespace ConsoleApp1
             Console.WriteLine("Escribe una frase a la que pasar por camelCase: ");
             char[] frase = Console.ReadLine().ToCharArray();
             string res = "";
-            res += frase[0];
+            res += Char.ToLower(frase[0]);
             for (int i = 1; i < frase.Length; i++)
             {
                 if (frase[i] == ' ')
@@ -224,7 +224,7 @@ namespace ConsoleApp1
             {
                 if (((palindromo % 10) * 10) != (palindromo / (10 ^ (digits - 1))))
                 {
-                    flag |= false;
+                    flag = false;
                     break;
                 }
                 else
