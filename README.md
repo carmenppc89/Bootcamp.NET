@@ -7,7 +7,8 @@ This project is distributed under the **Custom Educational License v1.0**.
 See the [LICENSE](./LICENSE.txt) file for more information.
 </br></br>
 
-# Table of Contents 
+# Table of Contents
+</br>
 
 ## 1. [Console Apps]()
 ### 1.1 &nbsp;Introduction to .NET framework
