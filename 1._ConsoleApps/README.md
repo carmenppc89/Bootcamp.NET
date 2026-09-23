@@ -31,4 +31,4 @@ Applying inheritance, abstract classes, polymorphism and generics.
 | [2D Shapes](./1.3_Inheritance/CarmenPPerez_Forma2D) | Hierarchy of geometric shapes that compute their own area through polymorphism |
 
 ---
-⬅️ [Back to main index](../README.md)
+⬅️ [Back to main index](../Bootcamp.NET)
