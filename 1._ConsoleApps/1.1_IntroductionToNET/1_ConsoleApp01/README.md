@@ -1,4 +1,4 @@
-# ConsoleApp01
+# ConsoleApp01 — *CarmenPPerez_ConsoleApp01*
 
 ## Goal
 Reproduce and consolidate previous logic and code-design exercises from earlier in the bootcamp, all grouped behind a single console menu.
