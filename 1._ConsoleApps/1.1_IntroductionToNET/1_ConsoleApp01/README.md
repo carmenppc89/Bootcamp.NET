@@ -37,4 +37,4 @@ dotnet run
 - Extract each exercise into its own class/file to improve readability as the menu grows.
 
 ---
-⬅️ [Back to Introduction to .NET](../README.md)
+⬅️ [Back to Introduction to .NET](../)
