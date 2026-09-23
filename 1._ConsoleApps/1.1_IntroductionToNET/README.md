@@ -7,7 +7,7 @@ First steps with C# and the .NET framework: basic syntax, data types, control st
 
 | Project | Description |
 |---|---|
-| [ConsoleApp1](./1_ConsoleApp1) | Menu with 7 exercises: text, integer division, average, date comparison, camelCase, text palindrome and number palindrome |
+| [ConsoleApp01](./1_ConsoleApp01) | Menu with 7 exercises: text, integer division, average, date comparison, camelCase, text palindrome and number palindrome |
 | [Week Day](./2_WeekDay) | Converts a weekday name typed by the user into its number (1-7) |
 | [Morse Translator](./3_MorseTranslator) | Two-way translator between text and Morse code |
 | [Tic Tac Toe](./4_TicTacToe) | Player vs. computer tic-tac-toe, with win/draw detection |
