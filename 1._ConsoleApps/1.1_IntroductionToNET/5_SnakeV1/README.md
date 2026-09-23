@@ -11,7 +11,8 @@ Initial version of the classic **Snake** game. The user sets the board size, con
 2. The snake is represented as a `List<Point>`, with the first element being the head.
 3. On every iteration, the pressed arrow key is read, the next position is calculated, and collisions against borders (`#`) or the body (`Y`) are checked.
 4. The game ends by showing the score (the snake's length) upon collision.
-1. <img src="../../../IMGs/snake.png" width="600" alt=""/>
+
+<img src="../../../IMGs/snake.png" width="600" alt=""/>
 
 ## Concepts practiced
 - Two-dimensional arrays (`string[,]`)
