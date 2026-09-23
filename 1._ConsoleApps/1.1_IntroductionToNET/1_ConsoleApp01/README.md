@@ -13,7 +13,7 @@ This was my first bootcamp project. It's a menu-driven console app where each op
 | 1 | **Text** | Reads and writes console input/output; parses data as needed and returns it | <img src="../../../IMGs/consoleapp01_01_texto.png" width="300" alt="Text exercise"/> |
 | 2 | **Integer Division** | Reads a numerator and denominator and computes the integer quotient manually, looping subtraction instead of using `/` | <img src="../../../IMGs/consoleapp01_02_division.png" width="400" alt="Integer division exercise"/> |
 | 3 | **Average** | Asks how many numbers will be entered, stores them in an array, and computes their average | <img src="../../../IMGs/consoleapp01_03_media.png" width="300" alt="Average exercise"/> |
-| 4 | **Compare Dates** | Reads two dates in `dd-mm-aaaa` format and determines which one is more recent | <img src="../../../IMGs/consoleapp01_04_fechas.png" width="500" alt="Compare dates exercise"/> |
+| 4 | **Compare Dates** | Reads two dates in `dd-mm-aaaa` format and determines which one is more recent | <img src="../../../IMGs/consoleapp01_04_fechas.png" width="600" alt="Compare dates exercise"/> |
 | 5 | **camelCase** | Converts a sentence typed by the user into camelCase | <img src="../../../IMGs/consoleapp01_05_camelcase.png" width="500" alt="camelCase exercise"/> |
 | 6 | **Text Palindrome** | Checks whether a given string reads the same forwards and backwards | <img src="../../../IMGs/consoleapp01_06_palindromo_texto.png" width="300" alt="Text palindrome exercise"/> |
 | 7 | **Number Palindrome** | Checks whether a given number is a palindrome | <img src="../../../IMGs/consoleapp01_07_palindromo_numero.png" width="300" alt="Number palindrome exercise"/> |
