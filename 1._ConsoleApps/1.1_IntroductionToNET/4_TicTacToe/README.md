@@ -12,9 +12,10 @@ Classic Tic-Tac-Toe played in the console against the computer. The player is `O
 3. `ComprobarRaya()` checks all 8 possible winning combinations.
 4. `HayEmpate()` checks whether any cells remain free.
 5. The final result is displayed based on the turn code (`-1` player wins, `-2` computer wins, `-3` draw).
-<img src="../../../IMGs/tictactoe-01.png" width="600" alt=""/>
+
+<img src="../../../IMGs/tictactoe-01.png" width="500" alt=""/>
 </br>
-<img src="../../../IMGs/tictactoe-02.png" width="600" alt=""/>
+<img src="../../../IMGs/tictactoe-02.png" width="500" alt=""/>
 
 ## Concepts practiced
 - Arrays and iteration
