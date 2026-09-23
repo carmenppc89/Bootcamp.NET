@@ -27,13 +27,10 @@ This was my first bootcamp project. It's a menu-driven console app where each op
 - Basic algorithmic thinking (integer division without `/`, palindrome checking)
 
 ## ▶️ How to run
-```bash
-cd ConsoleApp1
-dotnet run
-```
+1. Open 1_ConsoleApp1/ConsoleApp1.sln.
+2. Press Ctrl+F5 (Start Without Debugging) or F5.
 
 ## Possible improvements
-- `palindromoNUM()` uses the `^` operator expecting exponentiation, but in C# it's the bitwise XOR operator — the digit-by-digit comparison logic should be revisited.
 - Extract each exercise into its own class/file to improve readability as the menu grows.
 
 ---

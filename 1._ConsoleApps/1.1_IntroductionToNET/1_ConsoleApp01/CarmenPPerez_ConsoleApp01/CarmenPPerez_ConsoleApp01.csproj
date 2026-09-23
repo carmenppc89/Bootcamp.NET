@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{634F2AD4-05A4-461D-9110-E024315D70FE}</ProjectGuid>
+    <ProjectGuid>{86C47594-DA67-4C67-B2AA-AFEE9D2ABACB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp01</RootNamespace>
-    <AssemblyName>ConsoleApp01</AssemblyName>
+    <RootNamespace>CarmenPPerez_ConsoleApp01</RootNamespace>
+    <AssemblyName>CarmenPPerez_ConsoleApp01</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

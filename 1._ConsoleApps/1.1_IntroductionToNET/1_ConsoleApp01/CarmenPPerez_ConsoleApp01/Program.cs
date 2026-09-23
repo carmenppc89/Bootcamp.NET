@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp01
+namespace CarmenPPerez_ConsoleApp01
 {
     internal class Program
     {
@@ -214,29 +214,23 @@ namespace ConsoleApp01
             Console.WriteLine("---------------------------\n   - Palindromo de Numero -\n" +
                   "---------------------------\n");
             Console.WriteLine("Escirbe el posible palindromo: ");
-            int palindromo = int.Parse(Console.ReadLine());
+
+            string palindromo = Console.ReadLine();
             bool flag = true;
             //int digits = palindromo.ToString().Length;
 
-            for (int digits = palindromo.ToString().Length; digits > 1; digits -= 2)
+            for (int i = 0; i < palindromo.Length / 2; i++)
             {
-                int primerDigito = palindromo / (int)Math.Pow(10, digits - 1);
-                int ultimoDigito = palindromo % 10;
-
-                if (primerDigito != ultimoDigito)
+                if (palindromo[i] != palindromo[palindromo.Length - 1 - i])
                 {
                     flag = false;
                     break;
                 }
-
-                // quita el primer Y el último dígito de golpe
-                palindromo = (palindromo % (int)Math.Pow(10, digits - 1)) / 10;
             }
 
             Console.WriteLine(flag ?
                 "   + El resultado es: Es palindromo" :
                 "   + El resultado es: NO Es palindromo");
-
         }
     }
 }
