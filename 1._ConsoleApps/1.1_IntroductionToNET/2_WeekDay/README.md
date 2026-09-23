@@ -10,6 +10,7 @@ The program asks the user to type the name of a weekday in Spanish (no accents: 
 1. The day is requested through the console.
 2. The text is normalized (`Trim().ToLower()`) to avoid errors from casing or extra spaces.
 3. A `switch` statement maps the day name to its corresponding number.
+<img src="../../../IMGs/weekday.png" width="300" alt=""/>
 
 ## Concepts practiced
 - `switch` statement
