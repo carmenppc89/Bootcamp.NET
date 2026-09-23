@@ -28,7 +28,7 @@ Each folder holds a standalone project with its own `README.md` explaining the g
 
 ### 1. Console Apps
 - **1.1 Introduction to .NET** — [ConsoleApp01](./1._ConsoleApps/1.1_IntroductionToNET/1_ConsoleApp01) · [Week Day](./1._ConsoleApps/1.1_IntroductionToNET/2_WeekDay) · [Morse Translator](./1._ConsoleApps/1.1_IntroductionToNET/3_MorseTranslator) · [Tic Tac Toe](./1._ConsoleApps/1.1_IntroductionToNET/4_TicTacToe) · [Snake V1](./1._ConsoleApps/1.1_IntroductionToNET/5_SnakeV1)
-- **1.2 Classes** — [Cards and Decks](./1._ConsoleApps/1.2_Classes/CarmenPPerez_CartasYBarajas) · [Card Battle](./1._ConsoleApps/1.2_Classes/CarmenPPerez_BatallaDeCartas) · [Football Club](./1._ConsoleApps/1.2_Classes/ClubDeFutbol)
+- **1.2 Classes** — [Cards and Decks](./1._ConsoleApps/1.2_Classes/1_Cards&Decks) · [Card Battle](./1._ConsoleApps/1.2_Classes/2_CardsBattle) · [Football Club](./1._ConsoleApps/1.2_Classes/3_FootballClubs)
 - **1.3 Inheritance** — [Hospital](./1._ConsoleApps/1.3_Inheritance/CarmenPPerez_Hospital) · [2D Shapes](./1._ConsoleApps/1.3_Inheritance/CarmenPPerez_Forma2D)
 
 ### 2. WinForms *(coming soon)*

@@ -18,9 +18,9 @@ Introduction to object-oriented programming: encapsulation, properties and colle
 
 | Project | Description |
 |---|---|
-| [Cards and Decks](./1.2_Classes/CarmenPPerez_CartasYBarajas) | Models a 52-card deck: shuffle, draw by position or draw at random |
-| [Card Battle](./1.2_Classes/CarmenPPerez_BatallaDeCartas) | Implementation of the "War" card game for 2-5 players, with tie-breaking logic |
-| [Football Club](./1.2_Classes/ClubDeFutbol) | Club, team and match manager with JSON persistence |
+| [Cards and Decks](./1.2_Classes/1_Cards&Decks) | Models a 52-card deck: shuffle, draw by position or draw at random |
+| [Cards Battle](./1.2_Classes/2_CardsBattle) | Implementation of the "War" card game for 2-5 players, with tie-breaking logic |
+| [Football Clubs](./1.2_Classes/3_FootballClubs) | Club, team and match manager with JSON persistence |
 
 ## 1.3 &nbsp;[Inheritance](./1.3_Inheritance)
 Applying inheritance, abstract classes, polymorphism and generics.
