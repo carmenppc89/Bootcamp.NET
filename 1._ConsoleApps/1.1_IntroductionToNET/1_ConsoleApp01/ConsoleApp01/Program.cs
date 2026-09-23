@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarmenPPerez_ConsoleApp01
+namespace ConsoleApp01
 {
     internal class Program
     {
@@ -209,36 +207,36 @@ namespace CarmenPPerez_ConsoleApp01
                 "   + El resultado es: Es palindromo" :
                 "   + El resultado es: NO Es palindromo");
         }
-        
+
         // Decir si un numero es un palindromo
         static void palindromoNUM()
         {
-            Console.WriteLine("---------------------------\n   - Palindromo de Texto -\n" +
+            Console.WriteLine("---------------------------\n   - Palindromo de Numero -\n" +
                   "---------------------------\n");
             Console.WriteLine("Escirbe el posible palindromo: ");
             int palindromo = int.Parse(Console.ReadLine());
             bool flag = true;
             //int digits = palindromo.ToString().Length;
 
-            for (int digits = palindromo.ToString().Length; digits > 1; digits--)
+            for (int digits = palindromo.ToString().Length; digits > 1; digits -= 2)
             {
-                if (((palindromo % 10) * 10) != (palindromo / (10 ^ (digits - 1))))
+                int primerDigito = palindromo / (int)Math.Pow(10, digits - 1);
+                int ultimoDigito = palindromo % 10;
+
+                if (primerDigito != ultimoDigito)
                 {
                     flag = false;
                     break;
                 }
-                else
-                {
-                    palindromo = palindromo / 10;
-                    digits--;
-                }
-            }
 
+                // quita el primer Y el último dígito de golpe
+                palindromo = (palindromo % (int)Math.Pow(10, digits - 1)) / 10;
+            }
 
             Console.WriteLine(flag ?
                 "   + El resultado es: Es palindromo" :
                 "   + El resultado es: NO Es palindromo");
-        }
 
+        }
     }
 }
