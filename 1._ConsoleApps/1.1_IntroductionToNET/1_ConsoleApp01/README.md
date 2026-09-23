@@ -1,4 +1,4 @@
-# ConsoleApp1
+# ConsoleApp01
 
 ## Goal
 Reproduce and consolidate previous logic and code-design exercises from earlier in the bootcamp, all grouped behind a single console menu.
@@ -8,15 +8,15 @@ This was my first bootcamp project. It's a menu-driven console app where each op
 
 ## Exercises
 
-| # | Exercise | Description |
-|---|---|---|
-| 1 | **Text** | Reads and writes console input/output; parses data as needed and returns it |
-| 2 | **Integer Division** | Reads a numerator and denominator and computes the integer quotient manually, looping subtraction instead of using `/` |
-| 3 | **Average** | Asks how many numbers will be entered, stores them in an array, and computes their average |
-| 4 | **Compare Dates** | Reads two dates in `dd-mm-aaaa` format and determines which one is more recent |
-| 5 | **camelCase** | Converts a sentence typed by the user into camelCase |
-| 6 | **Text Palindrome** | Checks whether a given string reads the same forwards and backwards |
-| 7 | **Number Palindrome** | Checks whether a given number is a palindrome |
+| # | Exercise | Description | Screenshot |
+|---|---|---|---|
+| 1 | **Text** | Reads and writes console input/output; parses data as needed and returns it | <img src="../../../IMGs/consoleapp1_01_texto.png" width="220" alt="Text exercise"/> |
+| 2 | **Integer Division** | Reads a numerator and denominator and computes the integer quotient manually, looping subtraction instead of using `/` | <img src="../../../IMGs/consoleapp1_02_division.png" width="220" alt="Integer division exercise"/> |
+| 3 | **Average** | Asks how many numbers will be entered, stores them in an array, and computes their average | <img src="../../../IMGs/consoleapp1_03_media.png" width="220" alt="Average exercise"/> |
+| 4 | **Compare Dates** | Reads two dates in `dd-mm-aaaa` format and determines which one is more recent | <img src="../../../IMGs/consoleapp1_04_fechas.png" width="220" alt="Compare dates exercise"/> |
+| 5 | **camelCase** | Converts a sentence typed by the user into camelCase | <img src="../../../IMGs/consoleapp1_05_camelcase.png" width="220" alt="camelCase exercise"/> |
+| 6 | **Text Palindrome** | Checks whether a given string reads the same forwards and backwards | <img src="../../../IMGs/consoleapp1_06_palindromo_texto.png" width="220" alt="Text palindrome exercise"/> |
+| 7 | **Number Palindrome** | Checks whether a given number is a palindrome | <img src="../../../IMGs/consoleapp1_07_palindromo_numero.png" width="220" alt="Number palindrome exercise"/> |
 
 ## Concepts practiced
 - Console I/O (`Console.ReadLine`, `Console.WriteLine`)
@@ -32,7 +32,7 @@ cd ConsoleApp1
 dotnet run
 ```
 
-## 💡 Possible improvements
+## Possible improvements
 - `palindromoNUM()` uses the `^` operator expecting exponentiation, but in C# it's the bitwise XOR operator — the digit-by-digit comparison logic should be revisited.
 - Extract each exercise into its own class/file to improve readability as the menu grows.
 
