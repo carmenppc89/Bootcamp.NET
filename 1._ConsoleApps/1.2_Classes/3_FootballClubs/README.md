@@ -12,11 +12,11 @@ Console-based sports manager app with three main modules accessible from a menu:
 
 All data (`clubs.json`, `equipos.json`, `partidos.json`) is loaded on startup and saved automatically after every operation, so the state persists between runs.
 
-<img src="../../../IMGs/footballclub-01.png" width="600" alt=""/>
-<img src="../../../IMGs/footballclub-02.png" width="600" alt=""/>
+<img src="../../../IMGs/footballclub-01.png" width="500" alt=""/>
+<img src="../../../IMGs/footballclub-02.png" width="400" alt=""/>
 <img src="../../../IMGs/footballclub-03.png" width="600" alt=""/>
-<img src="../../../IMGs/footballclub-04.png" width="600" alt=""/>
-<img src="../../../IMGs/footballclub-05.png" width="600" alt=""/>
+<img src="../../../IMGs/footballclub-04.png" width="500" alt=""/>
+<img src="../../../IMGs/footballclub-05.png" width="500" alt=""/>
 
 ## Architecture
 - `Jugador` (Player) — name, position and jersey number.
