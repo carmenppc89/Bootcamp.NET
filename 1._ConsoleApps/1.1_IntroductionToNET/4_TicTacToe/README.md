@@ -6,7 +6,7 @@ Implement the full logic of a turn-based game: win detection, draw detection and
 ## Description
 Classic Tic-Tac-Toe played in the console against the computer. The player is `O` and the computer (which picks a random free cell) is `X`. After every turn the game checks for a winning line (horizontal, vertical or diagonal) or a filled board with no winner.
 
-## ⚙How it works
+## How it works
 1. The board is represented as a 9-position array.
 2. On odd turns the player plays; on even turns, the computer.
 3. `ComprobarRaya()` checks all 8 possible winning combinations.
