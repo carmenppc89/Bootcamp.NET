@@ -1,0 +1,71 @@
+﻿@using WebApp_MVC_Animales.Models.ViewModels;
+@model DetailAnimalViewModel;
+
+@{
+    var errorMessage = ViewBag.NoAnimal as string;
+}
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+else
+{
+    <h2> Detalles del Animal </h2>
+
+    @*     <p>ID:                      &nbsp;@(Model.AnimalDetail.IdAnimal)</p>
+    <p>Nombre:                  &nbsp;@(Model.AnimalDetail.NombreAnimal)</p>
+    <p>Raza:                    &nbsp;@(Model.AnimalDetail.Raza)</p>
+    <p>Tipo de Animal:          &nbsp;@(Model.AnimalDetail.RidTipoAnimalNavigation.TipoDescripcion)</p>
+    <p>Fecha de Naciemiento:    &nbsp;@(Model.AnimalDetail.FechaNacimiento?.ToString("d"))</p> *@
+
+    <form asp-action="Update" asp-controller="Animal" method="post" style="display:inline;" asp-antiforgery="true">
+        <p>ID: &nbsp;@(Model.AnimalDetail.IdAnimal)</p>
+        <input type="hidden" name="id" value="@Model.AnimalDetail.IdAnimal" />
+
+        <p>
+            Nombre: &nbsp;
+            <input type="text" name="NombreAnimal" value="@Model.AnimalDetail.NombreAnimal">
+        </p>
+
+        <p>
+            Raza: &nbsp;
+            <input type="text" name="Raza" value="@Model.AnimalDetail.Raza">
+        </p>
+
+        <p>
+            Tipo: &nbsp;
+            <select name="idTipoAnimal" id="tipoDescripcion">
+
+                @foreach (TipoAnimal tipo in Model.TipoAnimales)
+                {
+                    @if (tipo.IdTipoAnimal == Model.AnimalDetail.RidTipoAnimal)
+                    {
+                        <option value="@tipo.IdTipoAnimal" selected>@tipo.TipoDescripcion</option>
+                    }
+                    else
+                    {
+                        <option value="@tipo.IdTipoAnimal">@tipo.TipoDescripcion</option>
+                    }
+                }
+
+            </select>
+
+        </p>
+
+        <p>
+            Fecha de Naciemento: &nbsp;
+            <input type="date" name="FechaNacimiento" value="@(
+                                                      Model.AnimalDetail.FechaNacimiento.HasValue? Model.AnimalDetail.FechaNacimiento?.ToString("yyyy-MM-dd"): "")"
+               data-date-format="DD/MM/YYYY">
+    </p>
+
+        <button type="submit">Actualizar</button>
+    </form>
+
+}
+
+<a href="@Url.Action("Index", "Home")>Volver a la lista</a>
+

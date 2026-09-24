@@ -1,0 +1,25 @@
+-- Crear Tabla
+DROP TABLE [dbo].[Usuario];
+
+CREATE TABLE Usuario (
+	IdUsuario INT IDENTITY(1,1) PRIMARY KEY,
+	UserName NVARCHAR(50) NOT NULL UNIQUE,
+	UserPwd NVARCHAR(20) NOT NULL,
+	FechaRegistro DATETIME DEFAULT GETDATE() NOT NULL 
+);
+
+SELECT * FROM [dbo].[Usuario];
+
+INSERT INTO [dbo].[Usuario] (UserName, UserPwd)
+VALUES (
+	'user',
+	'123'
+);
+
+CREATE TABLE Usuario(
+	IdUsuario INT IDENTITY(1,1) PRIMARY KEY,
+	UserName NVARCHAR(50) NOT NULL UNIQUE,
+	PwdHash VARBINARY(MAX) NOT NULL,
+	PwdSalt VARBINARY(MAX) NOT NULL,
+	FechaRegistro DATETIME DEFAULT GETDATE() NOT NULL 
+);

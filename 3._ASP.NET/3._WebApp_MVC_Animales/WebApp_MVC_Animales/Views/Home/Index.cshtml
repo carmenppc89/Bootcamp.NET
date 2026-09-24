@@ -1,0 +1,24 @@
+﻿@using WebApp_MVC_Animales.Models.ViewModels;
+@model AnimalViewModel;
+
+@{
+    ViewData["Title"] = "Animals Index";
+}
+
+<h1> Lista de Animales</h1>
+
+<ul>
+
+    @foreach (var a in Model.Animales)
+    {
+        <li>
+            <span class="animal-id">ID: @(a.IdAnimal)</span> @a.NombreAnimal &nbsp;
+            <form asp-action="AnimalDetail" asp-controller="Home" method="post" style="display:inline;">
+                <input type="hidden" name="id" value="@a.IdAnimal" />
+                <button type="submit">Ver Detalles</button>
+            </form>
+        </li>
+    }
+
+</ul>
+
