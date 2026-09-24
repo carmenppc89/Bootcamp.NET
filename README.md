@@ -24,7 +24,7 @@ Each folder holds a standalone project with its own `README.md` explaining the g
 
 ---
 
-## 🗂️ Detailed index
+## Detailed index
 
 ### 1. Console Apps
 - **1.1 Introduction to .NET** — [ConsoleApp01](./1._ConsoleApps/1.1_IntroductionToNET/1_ConsoleApp01) · [Week Day](./1._ConsoleApps/1.1_IntroductionToNET/2_WeekDay) · [Morse Translator](./1._ConsoleApps/1.1_IntroductionToNET/3_MorseTranslator) · [Tic Tac Toe](./1._ConsoleApps/1.1_IntroductionToNET/4_TicTacToe) · [Snake V1](./1._ConsoleApps/1.1_IntroductionToNET/5_SnakeV1)
